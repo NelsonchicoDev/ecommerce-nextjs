@@ -10,12 +10,12 @@ export const salesType = defineType({
     fields: [
         defineField({
             name: 'title',
-            title: 'Sale Title',
+            title: 'Sales Title',
             type: 'string',
         }),
         defineField({
             name: 'description',
-            title: 'Sale Description',
+            title: 'Sales Description',
             type: 'text',
         }),
         defineField({
